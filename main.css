@@ -2,3 +2,9 @@
     width: 90%;
     margin: auto;
 }
+@media (min-width: 0px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+    }
+}
